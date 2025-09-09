@@ -1,0 +1,34 @@
+
+
+// Endpoints for Users
+
+GET /api/users
+Accept: application/json
+Host: localhost:3000
+User-Agent: HTTPie/3.2.1
+Content-Type: application/json
+###
+
+GET /api/users/1
+Accept: application/json
+Host: localhost:3000
+User-Agent: HTTPie/3.2.1
+Content-Type: application/json
+###
+
+
+
+// Endpoints for Posts
+
+GET /api/posts
+Accept: application/json
+Host: localhost:3000
+User-Agent: HTTPie/3.2.1
+Content-Type: application/json
+###
+
+GET /api/posts/1
+Accept: application/json
+Host: localhost:3000
+User-Agent: HTTPie/3.2.1
+Content-Type: application/json

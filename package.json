@@ -1,0 +1,29 @@
+{
+	"name": "api-rest-mongo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node --watch ./src/app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^17.2.2",
+		"express": "^5.1.0",
+		"mongoose": "^8.18.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.2.2",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.6",
+		"ultracite": "^5.3.3"
+	},
+	"lint-staged": {
+		"*.{js,jsx,ts,tsx,json,jsonc,css,scss,md,mdx}": [
+			"npx ultracite fix"
+		]
+	}
+}
